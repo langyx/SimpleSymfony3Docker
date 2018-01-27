@@ -1,11 +1,11 @@
 docker-symfony
 ==============
 
-Based on : @eko/docker-symfony ! 
-Added Symfony 3,3 with FOSUserBundle
-Added Phpmyadmin
-Removed Elk
-Fixing PhpSession with docker
+* Based on : @eko/docker-symfony ! 
+* Added Symfony 3,3 with FOSUserBundle
+* Added Phpmyadmin
+* Removed Elk
+* Fixing PhpSession with docker
 
 # Installation
 
