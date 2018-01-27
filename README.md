@@ -31,6 +31,10 @@ _Note :_ you can rebuild all Docker images by running:
 $ docker-compose build
 ```
 
+# FOSUserBundle Table
+
+Import user.sql :)
+
 # How it works?
 
 Here are the `docker-compose` built images:
