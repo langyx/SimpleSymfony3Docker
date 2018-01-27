@@ -1,0 +1,3 @@
+yl_company_homepage:
+    path:     /
+    defaults: { _controller: YLCompanyBundle:Default:index }

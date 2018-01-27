@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+
+        {% block stylesheets %}
+            {% stylesheets filter='cssrewrite'
+            'css/bootstrap.css'
+            'css/font-awesome.css' %}
+            <link href="{{ asset_url }}" rel="stylesheet">
+            {% endstylesheets %}
+        {% endblock %}
+
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+    <body>
+        {% block body %}{% endblock %}
+
+        {% block javascripts %}
+            {% javascripts
+            'js/jquery.min.js'
+            'js/jquery-ui.min.js'
+            'js/bootstrap.js' %}
+            <script src="{{ asset_url }}"></script>
+            {% endjavascripts %}
+        {% endblock %}
+
+    </body>
+</html>
