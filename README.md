@@ -31,9 +31,18 @@ _Note :_ you can rebuild all Docker images by running:
 $ docker-compose build
 ```
 
-# FOSUserBundle Table
+# Symfony & FOSUserBundle 
 
-Import user.sql :)
+* Symfony console (You can do alias) :
+```bash
+alias dsymfcons="sudo docker-compose exec php php /var/www/symfony/bin/console"
+```
+* Import user.sql :)
+
+* Add user :
+```bash
+dsymfcons fos:user:create testuser
+```
 
 # How it works?
 
