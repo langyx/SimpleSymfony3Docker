@@ -33,7 +33,7 @@ $ docker-compose build
 
 # Symfony & FOSUserBundle 
 
-* Symfony console (You can do alias) :
+* Symfony console (You can make alias) :
 ```bash
 alias dsymfcons="sudo docker-compose exec php php /var/www/symfony/bin/console"
 ```
